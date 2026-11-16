@@ -1,16 +1,16 @@
 # Caesar Cipher | Text Encoder & Decoder
 
-A Python implementation of the classic Caesar Cipher that encodes and decodes text by shifting letters along the alphabet.
+A Python implementation of the classic Caesar Cipher that encodes and decodes text by shifting letters along the alphabet
 
 ---
 
 ## Overview
 
-The Caesar Cipher is a traditional substitution technique where every letter is moved a fixed number of positions through the alphabet. A shift of 3 turns `a` into `d`, and the alphabet wraps around so `z` leads back to `a`.
+The Caesar Cipher is a traditional substitution technique where every letter is moved a fixed number of positions through the alphabet. A shift of 3 turns `a` into `d`, and the alphabet wraps around so `z` leads back to `a`
 
-This project builds the idea using only core Python: strings, lists, loops and conditions. It accepts positive and negative shift values, keeps the original letter case, and leaves spaces and punctuation untouched.
+This project builds the idea using only core Python: strings, lists, loops and conditions. It accepts positive and negative shift values, keeps the original letter case, and leaves spaces and punctuation untouched
 
-I built it while learning Python, mainly to get comfortable with string handling and the modulo operator.
+I built it while learning Python, mainly to get comfortable with string handling and the modulo operator
 
 ---
 
@@ -36,7 +36,7 @@ The program uses a lowercase alphabet as its reference. For every character in a
 5. Restores the original letter case
 6. Adds the new character to the result
 
-Anything that is not a letter is added to the result exactly as it was.
+Anything that is not a letter is added to the result exactly as it was
 
 ---
 
@@ -56,8 +56,7 @@ Hello, World!
 def
 ```
 
-A shift of 29 behaves like a shift of 3, because `29 % 26 = 3`.
-
+A shift of 29 behaves like a shift of 3, because `29 % 26 = 3`
 ---
 
 ## Technologies & Concepts
@@ -82,7 +81,7 @@ A shift of 29 behaves like a shift of 3, because `29 % 26 = 3`.
 - Python 3.x
 - Any code editor or IDE
 
-No external libraries are needed.
+No external libraries are needed
 
 ### Run the Program
 
@@ -92,7 +91,7 @@ cd caesar-cipher-encoder-decoder
 python caesar_cipher.py
 ```
 
-To test your own text, edit the `messages` and `shifts` lists at the top of the file.
+To test your own text, edit the `messages` and `shifts` lists at the top of the file
 
 ---
 
@@ -118,7 +117,7 @@ caesar-cipher-encoder-decoder/
 
 ## Note
 
-The Caesar Cipher is a learning exercise and is not suitable for protecting sensitive information.
+The Caesar Cipher is a learning exercise and is not suitable for protecting sensitive information
 
 ---
 
@@ -142,10 +141,12 @@ If you found this useful, consider giving it a star ⭐
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details
+
 ---
 
-*Developed as part of my Python programming practice.*
+*Developed as part of my Python programming practice*
+
 ---
 
 **Project Status:** Completed
